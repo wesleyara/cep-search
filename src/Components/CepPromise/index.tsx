@@ -27,14 +27,21 @@ export default function CepPromise() {
     }
 
     async function promiseSearch() {
-      const cepAPI = await cep(cepInput);
-      setVal(cepAPI);
+      try {
+        const cepAPI = await cep(cepInput);
+        setVal(cepAPI);
+      } catch {
+        alert("Erro: CEP inválido, tente novamente novamente");
+        setCepInpu("");
+      }
     }
   }, [cepInpu, start]);
 
   function handleClick() {
     if (cepInpu.length == 8) {
       setStart(true);
+    } else {
+      alert("Erro: Insira a quantidade exata de caracteres.");
     }
   }
 
@@ -53,6 +60,7 @@ export default function CepPromise() {
           <input
             onChange={(e) => setCepInpu(e.target.value)}
             maxLength={8}
+            value={cepInpu}
             type="text"
             name="cepInput"
             id="cepInput"
