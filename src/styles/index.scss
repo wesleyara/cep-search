@@ -2,4 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  $color-three: #475481;
+  
+  background-color: $color-three;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
