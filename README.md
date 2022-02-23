@@ -1,34 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cep Search
 
-## Getting Started
 
-First, run the development server:
+### Contatos e redes sociais:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<div style="display: inline_block">
+  <a href="mailto:wesleyara.contato@gmail.com"><img alt="Wesley-GMAIL" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/wesley-gomes-de-araújo-534a66221/"><img alt="Wesley-LINKE" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://www.instagram.com/wesleyaraujo_w/"><img alt="Wesley-INSTA" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Linguagens utilizadas:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<div style="display: inline_block;">
+  <img target="_blank" align="center" alt="Wesley-TS" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+  <img target="_blank" align="center" alt="Wesley-NEXT" src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
+  <img align="center" alt="Wesley-SASS" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"> 
+</div>
+<br>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Descrição:
+O Cep Search é uma aplicação para a consulta de CEP. Utilizando a lib desenvolvida por Filipe Deschamps junto com a comunidade Open Source BR, denomindada de <a href="https://github.com/BrasilAPI/cep-promise">Cep promise</a>, que roda por debaixo dos panos na aplicação para trazer todas as respostas para requisições de pesquisa da forma mais rápida possível.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Como se trata de uma lib já pronta, minha aplicação é uma forma de utilizar as funcionalidades contidas na lib, fazendo a ponte entre o projeto desenvolvido pela comunidade e um usuário comum que queira consultar algum CEP.
+## Como usar?
+Basta entrar no site da aplicação e pesquisar por algum CEP, que ela lhe entregará dados sobre o CEP informado.
