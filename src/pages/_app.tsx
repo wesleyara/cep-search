@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Cep Search</title>
-        <link rel="shortcut icon" href="../..//favicon.ico" />
+        <link rel="shortcut icon" href="../..//logo.svg" />
       </Head>
       <Component {...pageProps} />
     </>
