@@ -1,0 +1,17 @@
+$color-one: #E30AFF;
+$color-two: #770DEA;
+$color-three: #475481;
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  padding: 20px;
+  color: white;
+
+  svg {
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 20px;
+  }
+}
